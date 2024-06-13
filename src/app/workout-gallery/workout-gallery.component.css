@@ -1,0 +1,53 @@
+.workout-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+    width: 100vw;
+    
+}
+
+.styled{
+    height: 2px;
+    width : 10px;
+    color : #ff9900
+}
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 25px;
+    color: grey;
+}
+
+
+.image-container{
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.view-btn{
+    padding: 16px;  /* Increase padding for a larger button */
+    background-color: #ff9900;  /* Button background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    color: #fff;  /* Text color */
+    border: none;  /* Remove default border */
+    border-radius: 25px;  /* Make the button rounded */
+    cursor: pointer;  /* Pointer cursor on hover */
+    font-size: 16px;  /* Increase font size */
+    font-weight: bold;  /* Bold text */
+    transition: background-color 0.3s ease;  /* Smooth transition on hover */
+}

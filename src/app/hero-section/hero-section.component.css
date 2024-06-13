@@ -1,0 +1,32 @@
+.hero-section{
+    position: relative;
+    width: 100vw;
+    aspect-ratio: 16/9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container{
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+div{
+  color: white;
+}
+
+.large-text{
+    font-size: 90px;
+
+}
+
+.sub-text{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}

@@ -1,0 +1,26 @@
+.card {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin: 20px 70px;
+  }
+  
+  .card img {
+    width: 500px;
+    height: 250px;
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .card-content h1{
+    font-size: 40px;
+  }

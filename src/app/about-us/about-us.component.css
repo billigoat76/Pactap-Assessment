@@ -1,0 +1,61 @@
+.about-us-container {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .about-us-text {
+    flex: 1;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  p{
+    color: grey;
+    font-size: 25px;
+  }
+  .about-us-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-text p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .read-more-btn {
+    padding: 15px 30px;  /* Increase padding for a larger button */
+    background-color: white;  /* Button background color */
+    color: #ff9900;  /* Text color */
+    width: 20%;
+    border-color: #ff9900 ;
+    border: 2px solid #ff9900;
+     /* Remove default border */
+    border-radius: 25px;  /* Make the button rounded */
+    cursor: pointer;  /* Pointer cursor on hover */
+    font-size: 25px;  /* Increase font size */
+    font-weight: bold;  /* Bold text */
+    transition: background-color 0.3s ease;  /* Smooth transition on hover */
+  }
+  
+  .read-more-btn:hover {
+    background-color: #e68a00;  /* Darken the background color on hover */
+    color: white;
+  }
+  
+  
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,27 @@
+.nav-items{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.nav-list{
+    font-size: 28px;
+    gap: 30px;
+   
+    color: white;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    cursor: pointer;
+}
