@@ -25,3 +25,18 @@ ul{
 li{
     cursor: pointer;
 }
+.items-hidden{
+    display: flex;
+    gap : 20px;
+}
+@media (max-width : 1580px){
+    .items-hidden{
+        display: none;
+    }
+}
+
+@media (max-width : 1200px){
+    .logo > {
+       width: 20px;
+    }
+}

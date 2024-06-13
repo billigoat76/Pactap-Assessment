@@ -30,3 +30,28 @@ div{
     letter-spacing: 2px;
     margin-top: 2rem;
 }
+
+@media (max-width: 1245px) {
+    .large-text {
+        font-size: 6vw; /* Smaller font size on tablets and smaller screens */
+        
+    }
+
+    .large-text>strong{
+        margin-top:10rem ;
+    }
+
+    .sub-text {
+        font-size: 2vw; /* Smaller font size on tablets and smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .large-text {
+        font-size: 6vw; /* Smaller font size on mobile phones */
+    }
+
+    .sub-text {
+        font-size: 2vw; /* Smaller font size on mobile phones */
+    }
+}

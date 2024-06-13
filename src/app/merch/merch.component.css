@@ -1,6 +1,7 @@
 .merch{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .merch-text{
     display: flex;
@@ -22,34 +23,46 @@ p{
 
 .merch-images{
     display: flex;
+    gap: 30px;
+    
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .prod1{
+    min-width: 200px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 25px;
     text-align: center;
+    
 }
 .prod2{
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    align-items: center;
     text-align: center;
 }
 .prod3{
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     text-align: center;
+    align-items: center;
 }
 .prod4{
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     text-align: center;
+    align-items: center;
 }
 
 h3{
@@ -57,4 +70,11 @@ h3{
 }
 h4{
     text-align: center;
+}
+
+@media (max-width : 1200px){
+    .merch-images{
+        width: 70vw;
+        
+    }
 }

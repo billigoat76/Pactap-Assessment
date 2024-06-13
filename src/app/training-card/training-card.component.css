@@ -24,3 +24,19 @@
   .card-content h1{
     font-size: 40px;
   }
+
+  @media (max-width: 480px) {
+    .card img,.card{
+        width: 80vw;
+    }
+    .card-content {
+        
+        width: 80%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
